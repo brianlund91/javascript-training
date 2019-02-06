@@ -6,6 +6,7 @@ var answer;
 
 function init() {
     setupGame();
+    setupButtonEventListener();
 }
 
 function setupGame() {
@@ -44,6 +45,14 @@ function isValidInput(num) {
     else {
         return false;
     }
+}
+
+function setupButtonEventListener() {
+    // test event listener on button element
+    var guessButton = document.querySelector("#guessButton");
+    guessButton.addEventListener('click', function(event){
+        console.log("You clicked the button");
+    });
 }
 
 
