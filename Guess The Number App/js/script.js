@@ -52,6 +52,9 @@ function setupButtonEventListener() {
     var guessButton = document.querySelector("#guessButton");
     guessButton.addEventListener('click', function(event){
         console.log("You clicked the button");
+        // could call checkGuess() here
+        // however, this is done using the 'onclick' button attribute
+        // I wanted an example of both options in this app
     });
 }
 
