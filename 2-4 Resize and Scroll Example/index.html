@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Resize and Scroll Example</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/script.js"></script>
+</head>
+
+<body>
+
+    <h1>Resize and Scroll Example</h1>
+
+    <h2>Resize</h2>
+
+    <p>This page uses <code>window.onresize = resize;</code> in the JS code  to execute the resize function. Try to change the size of your window now!</p>
+    
+    <p>Curent page size: <span id="pageSize"></span></p>
+    <p>Screen size: <span id="screenSize"></span></p>
+
+    <div class="progress">    
+        <!--NOTE: added a non-breaking space so that the percentage value wouldn't wrap to the next line-->    
+        <div>Percentage:&nbsp;<span id="percentageValue">0%</span></div>
+    </div>
+
+    <h2>Scroll</h2>
+              
+    <p id="text">
+        Scroll me and the progress bar on the right will show 
+            the percentage of scroll. Look also at the CSS
+            code (body is 2000px height, for example)...
+    </p>
+
+</body>
+</html>
