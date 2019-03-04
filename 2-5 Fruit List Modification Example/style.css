@@ -1,0 +1,5 @@
+.checked {
+    border: 1px dashed green;
+    background-color: lightgreen;
+    color:blue;
+}

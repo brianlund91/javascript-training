@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>RemoveChild example</title>
+  <script src="script.js"></script>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <button onclick="displayListOfCheckedItems();">Show Checked items</button>
+  <button onclick="removeSelected();">Remove selected items</button>
+  <button onclick="reset();">Reset initial configuration</button>
+  <br>
+  <ul id="fruits">
+    <li>
+      <input type="checkbox" name="fruit" value="Apples">Apples
+    </li>
+    <li>
+      <input type="checkbox" name="fruit" value="Oranges">Oranges
+    </li>
+    <li>
+      <input type="checkbox" name="fruit" value="Bananas">Bananas
+    </li>
+    <li>
+      <input type="checkbox" name="fruit" value="Grapes">Grapes
+    </li>
+    <li>
+      <input type="checkbox" name="fruit" value="Strawberries">Strawberries
+    </li>
+  </ul>
+  <p id="output"></p>
+</body>
+
+</html>
